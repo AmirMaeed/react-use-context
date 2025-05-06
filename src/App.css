@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: fixed;
+}
+
+.light-theme {
+  background: linear-gradient(to right, #5fffe7, #2d2b2a);
+  color: #333;
+  /* color: aqua; */
+  padding: 20px;
+}
+
+.dark-theme {
+  background: linear-gradient(to right, #2d2b2a, #5fffe7);
+
+  color: aqua;
+  padding: 20px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background-color: #45a049; /* Darker green */
+  color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
+button:active {
+  background-color: #3e8e41; /* Even darker green */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+  transition: transform 0.2s;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.theme-container:hover {
+  background: linear-gradient(to right, #5fffe7, #2d2b2a);
+  color: #333;
+  /* transform: translate(0, -3px); */
+  /* transition: transform 0.2s; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+
+}
